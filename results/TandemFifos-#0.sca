@@ -1,0 +1,133 @@
+version 2
+run TandemFifos-0-20190303-21:56:14-8696
+attr configname TandemFifos
+attr datetime 20190303-21:56:14
+attr experiment TandemFifos
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network TandemQueue
+attr processid 8696
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.interArrivalTime exponential(2s)
+param **.serviceTime exponential(2s)
+
+scalar TandemQueue.source created:last nan
+attr interpolationmode none
+attr title "the number of jobs created, last"
+scalar TandemQueue.queue busy:timeavg nan
+attr interpolationmode sample-hold
+attr title "server busy state, timeavg"
+scalar TandemQueue.queue queueingTime:mean nan
+attr interpolationmode none
+attr title "queueing time at dequeue, mean"
+attr unit s
+scalar TandemQueue.queue queueingTime:max nan
+attr interpolationmode none
+attr title "queueing time at dequeue, max"
+attr unit s
+scalar TandemQueue.queue queueLength:timeavg nan
+attr interpolationmode sample-hold
+attr title "queue length, timeavg"
+scalar TandemQueue.queue queueLength:max nan
+attr interpolationmode sample-hold
+attr title "queue length, max"
+scalar TandemQueue.queue dropped:count 0
+attr interpolationmode none
+attr title "drop event, count"
+scalar TandemQueue.queue1 busy:timeavg nan
+attr interpolationmode sample-hold
+attr title "server busy state, timeavg"
+scalar TandemQueue.queue1 queueingTime:mean nan
+attr interpolationmode none
+attr title "queueing time at dequeue, mean"
+attr unit s
+scalar TandemQueue.queue1 queueingTime:max nan
+attr interpolationmode none
+attr title "queueing time at dequeue, max"
+attr unit s
+scalar TandemQueue.queue1 queueLength:timeavg nan
+attr interpolationmode sample-hold
+attr title "queue length, timeavg"
+scalar TandemQueue.queue1 queueLength:max nan
+attr interpolationmode sample-hold
+attr title "queue length, max"
+scalar TandemQueue.queue1 dropped:count 0
+attr interpolationmode none
+attr title "drop event, count"
+scalar TandemQueue.queue2 busy:timeavg nan
+attr interpolationmode sample-hold
+attr title "server busy state, timeavg"
+scalar TandemQueue.queue2 queueingTime:mean nan
+attr interpolationmode none
+attr title "queueing time at dequeue, mean"
+attr unit s
+scalar TandemQueue.queue2 queueingTime:max nan
+attr interpolationmode none
+attr title "queueing time at dequeue, max"
+attr unit s
+scalar TandemQueue.queue2 queueLength:timeavg nan
+attr interpolationmode sample-hold
+attr title "queue length, timeavg"
+scalar TandemQueue.queue2 queueLength:max nan
+attr interpolationmode sample-hold
+attr title "queue length, max"
+scalar TandemQueue.queue2 dropped:count 0
+attr interpolationmode none
+attr title "drop event, count"
+scalar TandemQueue.sink generation:mean nan
+attr interpolationmode none
+attr title "the generation of the arrived jobs, mean"
+scalar TandemQueue.sink generation:max nan
+attr interpolationmode none
+attr title "the generation of the arrived jobs, max"
+scalar TandemQueue.sink delaysVisited:mean nan
+attr interpolationmode none
+attr title "the total number of delays visited by arrived jobs, mean"
+scalar TandemQueue.sink delaysVisited:max nan
+attr interpolationmode none
+attr title "the total number of delays visited by arrived jobs, max"
+scalar TandemQueue.sink queuesVisited:mean nan
+attr interpolationmode none
+attr title "the total number of queues visited by arrived jobs, mean"
+scalar TandemQueue.sink queuesVisited:max nan
+attr interpolationmode none
+attr title "the total number of queues visited by arrived jobs, max"
+scalar TandemQueue.sink totalServiceTime:mean nan
+attr interpolationmode none
+attr title "the total time spent  by arrived jobs, mean"
+attr unit s
+scalar TandemQueue.sink totalServiceTime:max nan
+attr interpolationmode none
+attr title "the total time spent  by arrived jobs, max"
+attr unit s
+scalar TandemQueue.sink totalDelayTime:mean nan
+attr interpolationmode none
+attr title "the total time spent in delay nodes by arrived jobs, mean"
+attr unit s
+scalar TandemQueue.sink totalDelayTime:max nan
+attr interpolationmode none
+attr title "the total time spent in delay nodes by arrived jobs, max"
+attr unit s
+scalar TandemQueue.sink totalQueueingTime:mean nan
+attr interpolationmode none
+attr title "the total time spent in queues by arrived jobs, mean"
+attr unit s
+scalar TandemQueue.sink totalQueueingTime:max nan
+attr interpolationmode none
+attr title "the total time spent in queues by arrived jobs, max"
+attr unit s
+scalar TandemQueue.sink lifeTime:mean nan
+attr interpolationmode none
+attr title "lifetime of arrived jobs, mean"
+attr unit s
+scalar TandemQueue.sink lifeTime:max nan
+attr interpolationmode none
+attr title "lifetime of arrived jobs, max"
+attr unit s
+
